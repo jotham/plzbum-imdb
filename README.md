@@ -8,6 +8,9 @@ Configuration
 
 Create an API key for OMDB here https://www.omdbapi.com/apikey.aspx
 
-Update the `~/.sopel/default.cfg` to include ```[plzbum_imdb]
+Update the `~/.sopel/default.cfg` to include
+
+```
+[plzbum_imdb]
 api_key = XYZ
 ```
