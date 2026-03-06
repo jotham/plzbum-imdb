@@ -2,7 +2,7 @@
 import re
 import requests
 
-IMDB_URL_PATTERN = r'https://www\.imdb\.com/title/([a-zA-Z0-9]+)/?'
+IMDB_URL_PATTERN = r'https://(?:www|m)\.imdb\.com/title/([a-zA-Z0-9]+)/?'
 OMDB_URL = 'https://www.omdbapi.com/'
 
 def get_omdb_info(imdb_id, api_key):
