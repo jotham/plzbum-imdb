@@ -1,1 +1,4 @@
-reference/*
+reference/
+.claude
+CLAUDE.md
+sopel_helper.py
